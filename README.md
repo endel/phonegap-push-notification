@@ -1,4 +1,4 @@
-Minimal Android/iOS Push Notification Application
+Simple Android/iOS Push Notification Example
 ---
 
     $ phonegap install android
