@@ -7,7 +7,10 @@
         "res/xml/config.xml": {
             "/*": {
                 "<feature name=\"PushPlugin\"><param name=\"android-package\" value=\"com.plugin.gcm.PushPlugin\" /></feature>": 1,
-                "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>": 1
+                "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>": 1,
+                "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>": 1,
+                "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>": 1,
+                "<feature name=\"AppInfo\"><param name=\"android-package\" value=\"org.scriptotek.appinfo.AppInfo\" /></feature>": 1
             }
         },
         "AndroidManifest.xml": {
@@ -24,6 +27,12 @@
                 "<activity android:name=\"com.plugin.gcm.PushHandlerActivity\" />": 1,
                 "<receiver android:name=\"com.plugin.gcm.CordovaGCMBroadcastReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" /><category android:name=\"com.phonegap.helloworld\" /></intent-filter></receiver>": 1,
                 "<service android:name=\"com.plugin.gcm.GCMIntentService\" />": 1
+            },
+            "/*": {
+                "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />": 2,
+                "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />": 1,
+                "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />": 1,
+                "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />": 1
             }
         }
     },
@@ -33,7 +42,17 @@
         },
         "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "org.scriptotek.appinfo": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        }
+    }
 }
