@@ -1,4 +1,4 @@
-/Users/endel/Projects/phonegap-push-notification/platforms/android/ant-gen/com/phonegap/helloworld/R.java \
+/Users/endel/Projects/phonegap-push-notification/platforms/android/ant-gen/com/doubleleft/debug/R.java \
  : /Users/endel/Projects/phonegap-push-notification/platforms/android/res/drawable/icon.png \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/res/drawable-hdpi/icon.png \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/res/drawable-ldpi/icon.png \

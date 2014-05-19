@@ -29,12 +29,13 @@
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/spec.html \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/css/index.css \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/img/logo.png \
-/Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/js/index.js \
+/Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/js/dl.js \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/js/jquery.js \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/com.phonegap.plugins.PushPlugin \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.apache.cordova.file \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.apache.cordova.media \
+/Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.scriptotek.appinfo \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/com.phonegap.plugins.PushPlugin/www \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
@@ -62,6 +63,8 @@
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.apache.cordova.media/www \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.apache.cordova.media/www/Media.js \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.apache.cordova.media/www/MediaError.js \
+/Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.scriptotek.appinfo/www \
+/Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/plugins/org.scriptotek.appinfo/www/appinfo.js \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/res/icon \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/res/screen \
 /Users/endel/Projects/phonegap-push-notification/platforms/android/assets/www/res/icon/android \

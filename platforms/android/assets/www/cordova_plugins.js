@@ -172,6 +172,7 @@ module.exports.metadata =
     "org.apache.cordova.device": "0.2.10-dev",
     "org.apache.cordova.media": "0.2.11-dev",
     "org.scriptotek.appinfo": "1.1.0",
+    "org.apache.cordova.console": "0.2.9-dev",
     "org.apache.cordova.file": "1.1.0"
 }
 // BOTTOM OF METADATA
